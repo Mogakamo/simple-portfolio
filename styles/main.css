@@ -5,10 +5,132 @@ body {
 }
 
 .container  {
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     display: grid;
     font-size: 16px;
     font-family: 'Libre Baskerville', sans-serif;
+    grid-template-columns: 350px repeat(2, 1fr);
+    grid-template-rows: 50px 1fr 1fr 1fr 10px;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 400;
+    grid-auto-flow: column;
+}
+
+.container div {
+    padding: 10px;
+    
+}
+
+.container img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header  {
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    border-right: 1px solid gray;
+}
+
+.skills {
+    
+}
+
+
+.profile-summary {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-content: center;
+}
+
+.contacts {
+    align-items: end;
+    justify-content: end;
+    grid-row-start: 4;
+    grid-row-end: span 5;
+    border-right: 1px solid gray;
+    border-top: 1px solid transparent;
+}
+
+#progress {
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+.progress-html:after {
+    content: 'HTML - 80%';
+    display: block;
+    background: rgb(105, 105, 228);
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: white;
+}
+
+.progress-git:after {
+    content: 'HTML - 80%';
+    display: block;
+    background: rgb(105, 105, 228);
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: white;
+}
+
+.progress-css:after {
+    content: 'HTML - 80%';
+    display: block;
+    background: rgb(105, 105, 228);
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: white;
+}
+
+.progress-javascript:after {
+    content: 'HTML - 80%';
+    display: block;
+    background: rgb(105, 105, 228);
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: white;
+}
+
+.progress-nextjs:after {
+    content: 'HTML - 80%';
+    display: block;
+    background: rgb(105, 105, 228);
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.experience {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.footer {
+    grid-row-start: 4;
+    grid-row-end: 5;   
+    border-top: 1px solid gray;
+}
+
+.footer p {
     
 }
