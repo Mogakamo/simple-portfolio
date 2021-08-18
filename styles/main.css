@@ -2,6 +2,8 @@
 
 body {
     margin: 0;
+    background-color: navy;
+    border-radius: 45px;
 }
 
 .container  {
@@ -17,7 +19,7 @@ body {
     box-sizing: border-box;
     font-weight: 400;
     grid-auto-flow: column;
-    border-radius: 45px;
+    background-color: gray;
 }
 
 .container div {
@@ -29,6 +31,11 @@ body {
     height: 150px;
     width: 150px;
     border-radius: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    text-transform: uppercase;
 }
 
 .header  {
