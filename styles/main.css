@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: navy;
+    /* background-color: teal; */
     border-radius: 45px;
 }
 
@@ -19,7 +19,7 @@ body {
     box-sizing: border-box;
     font-weight: 400;
     grid-auto-flow: column;
-    background-color: gray;
+    /* background-color: teal; */
 }
 
 .container div {
@@ -34,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: white;
+    color: rgb(128, 119, 119);
     text-transform: uppercase;
 }
 
@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-row-start: 1;
     grid-row-end: span 3;
     border-right: 1px solid gray;
+    background-color: teal;
 }
 
 .experience {
@@ -67,10 +68,11 @@ h1, h2, h3, h4, h5, h6 {
     grid-row-end: span 5;
     border-right: 1px solid gray;
     border-top: 1px solid transparent;
+    background-color: rgb(25, 40, 90);
 }
 
 #progress {
-    background: gray;
+    background: rgb(199, 189, 189);
     border-radius: 13px;
     height: 20px;
     width: 300px;
@@ -78,50 +80,60 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .progress-html:after {
-    content: 'HTML - 80%';
+    content: 'HTML - 90%';
     display: block;
-    background: rgb(105, 105, 228);
-    width: 80%;
-    height: 100%;
+    background: rgb(17, 17, 29);
+    width: 90%;
+    height: 20px;
     border-radius: 9px;
     text-decoration: white;
 }
 
 .progress-git:after {
-    content: 'HTML - 80%';
+    content: 'GIT - 99%';
     display: block;
-    background: rgb(105, 105, 228);
-    width: 80%;
+    background: rgb(17, 17, 29);
+    width: 99%;
     height: 100%;
     border-radius: 9px;
     text-decoration: white;
 }
 
 .progress-css:after {
-    content: 'HTML - 80%';
+    content: 'CSS - 85%';
     display: block;
-    background: rgb(105, 105, 228);
-    width: 80%;
+    background: rgb(17, 17, 29);
+    width: 85%;
     height: 100%;
     border-radius: 9px;
     text-decoration: white;
 }
 
 .progress-javascript:after {
-    content: 'HTML - 80%';
+    content: 'JavaScript - 88%';
     display: block;
-    background: rgb(105, 105, 228);
-    width: 80%;
+    background: rgb(17, 17, 29);
+    width: 88%;
     height: 100%;
     border-radius: 9px;
     text-decoration: white;
 }
 
 .progress-nextjs:after {
-    content: 'HTML - 80%';
+    content: 'Nextjs - 60%';
     display: block;
-    background: rgb(105, 105, 228);
-    width: 80%;
+    background: rgb(17, 17, 29);
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: white;
+}
+
+.progress-react:after {
+    content: 'React - 75%';
+    display: block;
+    background: rgb(17, 17, 29);
+    width: 75%;
     height: 100%;
     border-radius: 9px;
     text-decoration: white;
@@ -134,14 +146,31 @@ h1, h2, h3, h4, h5, h6 {
 .experience {
     grid-row-start: 3;
     grid-row-end: 4;
+    border-top: 1px solid gray;
 }
 
 .footer {
     grid-row-start: 4;
-    grid-row-end: 5;   
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;   
     border-top: 1px solid gray;
 }
 
+a {
+    color: brown;
+    padding: 5px;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+address {
+    color: brown;
+}
+
+a:hover {
+    color: aqua;
+}
 .footer p {
     
 }
