@@ -1,97 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="styles/main.css" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"> -->
-    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
-        
-        <div class="header">
-            <div class="image">
-                <img src="https://avatars.githubusercontent.com/u/61131314?v=4" alt="profile_picture">
-            </div>
-            <div class="name">
-                <h1 class="text-white">Amos Nyaburi</h1>
-                <h4 class="career text-white"><i>Front-End Developer</i></h4>
 
-                <h3 class="skills-header text-white" >Skills</h3>
-               <div class="progress-html text-white" id="progress"></div><br>
-               <div class="progress-git text-white" id="progress"></div><br>
-               <div class="progress-css text-white" id="progress"></div><br>
-               <div class="progress-javascript text-white" id="progress"></div><br>
-               <div class="progress-nextjs text-white" id="progress"></div><br>
-               <div class="progress-react text-white" id="progress"></div><br>
+        <div class="left-side">
+            <div class="profile-text">
+                <div class="img-box">
+                    <img src="https://avatars.githubusercontent.com/u/61131314?v=4" alt="profile-pic">
+                </div>
+                <h2>Amos Nyaburi <br><span>Front-End Developer</span></h2>
             </div>
+            <div class="contacts">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fas fa-phone-alt"></i></span>
+                        <span class="text">+(254)7 5747 8812</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fas fa-envelope"></i></span>
+                        <span class="text">com02519@uoeld.ac.ke</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fab fa-github"></i></span>
+                        <span class="text">github.com/Mogakamo</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fab fa-linkedin"></i></span>
+                        <span class="text">amos-nyaburi</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="text">Eldoret, Kenya</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="contacts education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2019 - Present</h5>
+                        <h4>Bachelor of Science in Computer Science</h4>
+                        <h4><span>University of Eldoret</span></h4>
+                    </li>
+                    <li>
+                        <h5>2015 - 2018</h5>
+                        <h4>Kenya Certificate of Secondary Education</h4>
+                        <h4><span>Segero Adventist Academy</span></h4>
+                    </li>
+                    <li>
+                        <h5>2012 - 2014</h5>
+                        <h4>Kenya Certificate of Primary Education</h4>
+                        <h4><span>Eronge Adventist Primary School</span></h4>
+                    </li>
+                    <li>
+                        <h5>2005 - 2011</h5>
+                        <h4>Kenya Certificate of Primary Education</h4>
+                        <h4><span>Karura Adventist Primary School</span></h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contacts language">
+                <h3 class="title">languages</h3>
+                <ul>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percent">
+                            <div style="width: 90%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Swahili</span>
+                        <span class="percent">
+                            <div style="width: 98%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">French</span>
+                        <span class="percent">
+                            <div style="width: 20%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>I am a passionate and a motivated front-end developer who is really enthusiastic in implementing user-friendly designs to make the web a better place to hang around.</p>
+            </div>
+
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+                <div class="box">
+                    <div class="img-box2">
+                        <img src="images/hng.jpg" alt="HNG Logo">
+                    </div>
+                    <div class="year_company">
+                        <h5>August 2021 - Present</h5>
+                        <h5>HNG</h5>
+                        <span class="icon"></span>
+                        <span class="link"><a href="zuri.internship.team"></a></span>
+                    </div>
+                    <div class="text">
+                        <h4>Front-End Developer</h4>
+                        <p>Getting to work on real life projects.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about skills">
+                <h2 class="title2">professional Skills</h2>
+                <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <div style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 78%;"></div>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>JavaScript</h4>
+                    <div class="percent">
+                        <div style="width: 85%;"></div>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Adobe XD</h4>
+                    <div class="percent">
+                        <div style="width: 55%;"></div>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Photoshop</h4>
+                    <div class="percent">
+                        <div style="width: 20%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Illustrator</h4>
+                    <div class="percent">
+                        <div style="width: 35%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>React</h4>
+                    <div class="percent">
+                        <div style="width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+
+
             
         </div>
-        <div class="contacts text-white">
-            Tel: <a href="tel:+254757478812" class="tel">+ (254) 757 47 8812</a>
-            <address>Address: 1155 - 30100 <br> Eldoret, Kenya</address>
-            Email: <a href="mailto:com02519@uoeld.ac.ke">com02519@uoeld.ac.ke</a><br>
-            Github: <a href="https://github.com/Mogakamo">Mogakamo</a>
-            <br>
-            Linkedin: <a href="https://www.linkedin.com/in/amos-nyaburi/">Amos Nyaburi</a>
-        </div>
-        <div class="profile-summary">
-            <h3 class="profile">Profile summary</h3>
-            <p>I am a motivated developer who is excited to build websites and web applications using the Nextjs Framework and also get to interact with the various technologies that help people interact with the internet world. I like to develop user-friendly interfaces and also would really like to get to work on real life projects and solutions.</p>
-        </div>
-        <div class="experience">
-            <h3>Education</h3>
-            <p>
-                <h4>University of Eldoret</h4>
-                <em><i>2<sup>nd</sup> September, 2019 - Present</i></em><br>
-                <h5>Bachelor of Science in Computer Science </h5>
-                Knowledge in Basic Calculus, Procedural Programming, website design , Communication Skills, Algorithms and Data Structures, Digital Circuits. 
-            </p>
-            <p>
-                <h4>Segero Adventist National Academy</h4><br>
-                <em><i>2<sup>nd</sup> February, 2015 - 28<sup>th</sup> November, 2018</i></em><br>
-                <h5>Secondary School</h5> 
-                - Attained 64 points (B Plain) out of 84 points
-                - Active in co-curricular activities - Table tennis    
-            </p>
-            <p>
-                <h4>Eronge Adventist Boarding Primary School</h4><br>
-                <em><i>2<sup>nd</sup> January, 2012 - 28<sup>th</sup> October, 2014</i></em><br>
-                <h5>Primary School </h5>
-                Attained 388 marks out of 500 (A -) 
-            </p>
-            <p>
-                <h4>Karura Adventist Primary School</h4><br>
-                <em><i>2<sup>nd</sup> January, 2005 - 2<sup>th</sup> November, 2011</i></em>
-                <h5>Primary School</h5>
-                Attained a total marks of 402 out of 500 (A -)
-            </p>
-            <h3>Projects</h3>
-            <p>
-                <a href="https://wasify.co.ke">E-Services Website</a>
-                - Tools used: Nextjs, Bootstrap, React
-            </p>
-            <p>
-                <a href="https://github.com/Mogakamo/html-css-javascript-projects/tree/main/blurry-image">Blurry image</a>
-                - Tools used: HTML, CSS
-            </p>
-            <p>
-                <a href="https://github.com/Mogakamo/Weather-App-">Weather App</a>
-                - Tools used: Nextjs, React
-            </p>
-            <p>
-                <a href="https://github.com/Mogakamo/html-css-javascript-projects/tree/main/vertical-slider">Vertical Sliders</a>
-                - Tools used: HTML, CSS
-            </p>
-            
-        </div>
-        <div class="footer">
-            <h3>Hobbies</h3>
-            - Reading       - Watching Movies       
-        </div>
+
     </div>
 </body>
+
 </html>
