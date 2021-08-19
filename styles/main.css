@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 
 * {
     margin: 0;
@@ -13,6 +15,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+i.fa {
+    font-family: fontawesome !important;
 }
 
 .container {
