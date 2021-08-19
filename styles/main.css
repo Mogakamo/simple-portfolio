@@ -193,6 +193,11 @@ p {
     font-weight: 600;
 }
 
+.about .box .year_company span a {
+    color: #03a9f4;
+    text-decoration: none;
+}
+
 .about .box .text h4 {
     text-transform: uppercase;
     color: #2a7da2;
