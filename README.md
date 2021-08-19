@@ -1,6 +1,10 @@
 <h1 align="center">My Resume</h1>
 
-[![portfolio](https://cdn.loom.com/sessions/thumbnails/8d55d78859ae4e6db08099f56661b5d9-00001.gif)](https://www.loom.com/share/8d55d78859ae4e6db08099f56661b5d9 "portfolio")
+
+
+https://user-images.githubusercontent.com/61131314/130043647-615c4042-12a5-4632-bf11-40b6e516d059.mp4
+
+
 
 This is a simple resume built with HTML and CSS.
 
